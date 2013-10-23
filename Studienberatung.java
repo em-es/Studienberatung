@@ -11,6 +11,13 @@ public class Studienberatung {
 			if (answer2.equalsIgnoreCase("nein")) {
 				System.out.println("Nicht studieren");
 			} else {
+				System.out.println("Hast du eine Berufsausbildung?");
+				String answer4 = scanner.next();
+				if (answer4.equalsIgnoreCase("nein")) {
+					System.out.println("Besser noch studieren.");
+				} else {
+					System.out.println("Du kannst ja später noch studieren");
+				}
 			}
 
 		} else {
