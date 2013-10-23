@@ -22,6 +22,7 @@ public class Studienberatung {
 				System.out.println("Auf jeden Fall studieren");
 
 			}
+
 		}
 	}
 }
